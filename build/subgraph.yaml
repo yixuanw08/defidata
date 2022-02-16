@@ -1,6 +1,6 @@
 specVersion: 0.0.4
 description: Token Subgraph API
-repository: https://github.com/yixuanw08/subgraph
+repository: https://github.com/yixuanw08/defidata
 schema:
   file: token.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Transfer
     network: mainnet
     source:
-      address: "0xba5ebaf3fc1fcca67147050bf80462393814e54b"
+      address: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
       abi: ERC20
-      startBlock: 13757988
+      startBlock: 12757988
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
